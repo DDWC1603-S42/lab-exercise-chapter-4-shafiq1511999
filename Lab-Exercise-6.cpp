@@ -1,12 +1,22 @@
 //convert the program below to a "do...while" loop
-
-int n;
-cout<<"Enter a non-negative integer: ";
-cin>>n;
-
-while(n<0)
+#include <iostream>
+using namespace std;
+int main()
 {
-	cout<<"The integer your entered is negative."<<endl;
-	cout<<"Enter a non-negative integer";
-	cin>>n;
+   int n;
+   
+   do{
+   cout<<"Enter a non-negative integer: ";
+   cin>>n;
+ 
+   
+   }
+   
+   while(n>=0);
+{
+	cout<<"The integer your entered is negative "<<endl;
+
+}
+ 
+return 0;
 }
