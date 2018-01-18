@@ -8,15 +8,10 @@ int main()
    do{
    cout<<"Enter a non-negative integer: ";
    cin>>n;
- 
-   
    }
-   
    while(n>=0);
 {
 	cout<<"The integer your entered is negative "<<endl;
-
 }
- 
-return 0;
+ return 0;
 }
