@@ -5,10 +5,11 @@
 using namespace std;
 int main()
 {
-	while(false)//infinite loop
+	char num;
+	
+	while(true)
 	{
 		std::cout<<"Enter 0 to exit or anyhing else to continue: ";
-		int num;
 		cin>>num;	
 
 		//exit loop if user enters
